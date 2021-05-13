@@ -32,6 +32,8 @@ puntos.corte[cuadrados==min(cuadrados)] # 5.04
 # Ubicación del punto mínimo:
 points(puntos.corte[cuadrados==min(cuadrados)], min(cuadrados),
        col = "#e84712", pch = 16, cex = 0.8)
+# Ejemplo tomado de: http://www-stat.wharton.upenn.edu/~buja/STAT-961/
+
 
 # Construcción y gráficas de árboles
 # minbucket indica el número mínimo de observaciones en los nodos finales
@@ -130,14 +132,3 @@ arbol3 <- rpart(Rupaul ~ ., data = toy[c(7, 1, 7, 1, 3, 8, 5, 3),],
 rpart.plot(arbol3, compress = TRUE, type = 5, fallen.leaves = FALSE, 
            box.palette = "Greens")
 
-res1 <- data.frame("Horas" = c(6, 25, 15, 10, 20, 10, 2, 30),
-                  "Edad" = c(22, 23, 50, 18, 25, 48, 40, 28),
-                  "Luismi" = c(0, 1, 2, 1, 0, 1, 2, 1),
-                  "Rupaul" = c(151, 1.5, 53, 62, 140, 2, 2.5, 141) - 
-                    mean(c(151, 1.5, 53, 62, 140, 2, 2.5, 141)))
-res1[,"Luismi"] <- as.factor(res1[,"Luismi"])
-
-arbol3 <- rpart(Rupaul ~ ., data = res1, 
-                method = "anova", minbucket = 2, cp = 0)
-rpart.plot(arbol3, compress = TRUE, type = 5, fallen.leaves = FALSE, 
-           box.palette = "Greens")
