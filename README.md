@@ -7,6 +7,10 @@ El archivo cali.csv es la base de datos California Housing usada para los ejempl
 El código LeccionesÁrboles_Parte1.R explica el mecanismo de árboles de regresión, y se usa la biblioteca rpart para crear árboles como el siguiente:
 <img width="609" alt="cap2_arbol_800" src="https://user-images.githubusercontent.com/73151688/118307606-8abfc700-b4b0-11eb-81e8-3a5d6336b022.png">
 
+Y la observación de la varianza y sesgo:
+<img width="911" alt="Screen Shot 2021-05-14 at 12 40 47" src="https://user-images.githubusercontent.com/73151688/118308504-a4154300-b4b1-11eb-9d97-aa9a9ebd32c9.png">
+
+
 El código LeccionesÁrboles_Parte2.R implementa algoritmos de bagging y Random Forest con la biblioteca randomForest. Las partes 3 y 4 implementan boosting por medio de la interfaz h2o, y se hacen comparaciones entre dos funciones de pérdida distintas. Algunas gráficas ilustrativas son las siguientes:
 
 <img width="464" alt="Cali_rf_mtry_test" src="https://user-images.githubusercontent.com/73151688/118307910-f1dd7b80-b4b0-11eb-8e29-60a0a2ee9c90.png">
