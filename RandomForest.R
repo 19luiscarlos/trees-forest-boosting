@@ -1,5 +1,5 @@
 library(randomForest)
-cali = read.csv('/Users/luiscarlos/Documents/Tesis/Ejemplos/California/cali.csv',
+cali = read.csv('cali.csv',
                 sep = ',', header = T)
 
 # Matrices para registrar errores test (oob) y train de cinco repeticiones
