@@ -1,6 +1,4 @@
 library(h2o)
-setwd("~/Documents/Tesis/Ejemplos/California")
-load("~/Documents/Tesis/Ejemplos/California/3Huber.RData")
 #library(plot3Drgl) # para trellis de dependencia parcial
 
 h2o.init(ip='localhost', nthreads=-1,
@@ -8,7 +6,7 @@ h2o.init(ip='localhost', nthreads=-1,
 h2o.removeAll() 
 
 # Cargar y adaptar datos:
-cali = h2o.importFile('/Users/luiscarlos/Documents/Tesis/Ejemplos/California/cali.csv',
+cali = h2o.importFile('cali.csv',
                       sep = ',', header = T)
 y = "MedianHouseValue"
 x = setdiff(names(cali), y)
