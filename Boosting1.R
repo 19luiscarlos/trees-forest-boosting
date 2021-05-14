@@ -5,8 +5,7 @@ h2o.init(ip='localhost', nthreads=-1,
 h2o.removeAll() 
 
 # Cargar y adaptar datos:
-setwd("~/OneDrive/Tesis/Codes/California")
-cali = h2o.importFile('/Users/luiscarlos/Documents/Tesis/Codes/California/cali.csv',
+cali = h2o.importFile('cali.csv',
                       sep = ',', header = T)
 y = "MedianHouseValue"
 x = setdiff(names(cali), y)
