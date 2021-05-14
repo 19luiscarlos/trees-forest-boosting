@@ -16,5 +16,5 @@ El código RandomForest.R implementa algoritmos de bagging y Random Forest con l
 <img width="496" alt="Cali_gbm_tst" src="https://user-images.githubusercontent.com/73151688/118307929-f73ac600-b4b0-11eb-8503-bcd6d96deb8a.png">
 <img width="680" alt="Cali_predictions" src="https://user-images.githubusercontent.com/73151688/118308004-0c175980-b4b1-11eb-8d64-de6d489c819d.png">.
 
-trees.R fue creado especialmente para la plática, mientras que el resto es parte de mi tesis.
+trees.R fue creado especialmente para la plática, mientras que el resto es parte de mi tesis. Por alguna razón no puedo subir los .RData para que no tengan que correr el código y usen lo que yo ya hice, si alguien los quiere, puede enviarme un correo.
 Cualquier duda la responderé con gusto, tan bien como pueda, a través de cortesruiz@ciencias.unam.mx
