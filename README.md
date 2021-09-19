@@ -1,5 +1,5 @@
 # Árboles de decisión en machine learning: lecciones sobre el trabajo en equipo.
-ACTUALIZACIÓN: Una versión de la presentación con correcciones menores fue presentada en junio a estudiantes del grupo de Teoría del Riesgo de la mtra. Karen Lanzguerrero en la Facultad de Ciencias, UNAM. Puede ser descargada dando click a [este link](https://www.icloud.com/iclouddrive/0ZUMQ2lzWyHfBrnNeBYv2KlFQ) de iCloud (no es necesario tener una cuenta).
+ACTUALIZACIÓN: Una versión de la presentación con correcciones menores fue presentada en junio a estudiantes del grupo de Teoría del Riesgo de la mtra. Karen Lanzguerrero en la Facultad de Ciencias, UNAM. Puede ser descargada dando click en [este link](https://www.icloud.com/iclouddrive/0ZUMQ2lzWyHfBrnNeBYv2KlFQ) de iCloud (no es necesario tener una cuenta).
 
 El 12 de mayo di una plática en el Taller Estudiantil de Cómputo de la Facultad de Ciencias, donde hablé de mi tesis en Random Forest y Boosting.
 
